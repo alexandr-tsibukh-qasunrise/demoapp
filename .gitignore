@@ -1,18 +1,23 @@
-node_modules
+node_modules/*
+node_modules/.bin/*
 
+!node_modules/angular/
 node_modules/angular/*
 !node_modules/angular/angular.js
 
+!node_modules/angular-route
 node_modules/angular-route/*
 !node_modules/angular-route/angular-route.js
 
-node_modules/angular-mocks/*
-node_modules/karma/*
-node_modules/.bin/*
+!node_modules/angular-resource
+node_modules/angular-resource/*
+!node_modules/angular-resource/angular-resource.js
 
+!node_modules/todomvc-app-css
 node_modules/todomvc-app-css/*
 !node_modules/todomvc-app-css/index.css
 
+!node_modules/todomvc-common
 node_modules/todomvc-common/*
 !node_modules/todomvc-common/base.css
-!node_modules/todomvc-common/base.js
+!node_modules/todomvc-common/base.js 
